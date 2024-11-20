@@ -13,7 +13,7 @@ table_inventory = PostgresConnection.create_table(
               download_link VARCHAR(255),
               date_added TIMESTAMP DEFAULT now() ''')
 
-'''q1: Insert new items into the database.'''
+print('''q1: Insert new items into the database.''')
 insert_inventory = PostgresConnection.insert("Inventory",
                                              ['name', 'quantity', 'price', 'type', 'weight', 'dimensions', 'file_size', 'download_link'],
                                              [('Laptop', 10, 50000, 'PhysicalItem', 2.5, '30x20x2', None, None),
