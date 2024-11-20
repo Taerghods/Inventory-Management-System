@@ -18,13 +18,13 @@
 5. Implement a logging system to track changes in stock and log relevant details of each update.
 6. Implement a PostgreSQL database with a table named inventory that includes the columns: id, name, quantity, price, type, and additional attributes specific to each item type.
 7. Write several queries to:
-   - a. Insert new items into the database.
-   - b. Update the stock quantity of an item.
-   - c. Retrieve all items in the inventory.
-   - d. Find items with stock quantities less than a specified threshold (e.g., less than 10).
-   - e. Get the total value of all items in stock by multiplying price and quantity for each item and summing the results.
-   - f. Find items by their type (e.g., list all PhysicalItems or DigitalItems).
-   - g. Get the average price of all items in the inventory.
-   - h. Delete an item from the inventory by its id.
-   - i. Update the price of an item based on a given id and new price.
-   - j. Retrieve items that have been in stock for the longest time (this would require an additional field for date added or last modified).
+   - q1: Insert new items into the database.
+   - q2: Update the stock quantity of an item.
+   - q3: Retrieve all items in the inventory.
+   - q4: Find items with stock quantities less than a specified threshold (e.g., less than 10).
+   - q5: Get the total value of all items in stock by multiplying price and quantity for each item and summing the results.
+   - q6: Find items by their type (e.g., list all PhysicalItems or DigitalItems).
+   - q7: Get the average price of all items in the inventory.
+   - q8: Delete an item from the inventory by its id.
+   - q9: Update the price of an item based on a given id and new price.
+   - q10: Retrieve items that have been in stock for the longest time (this would require an additional field for date added or last modified).
