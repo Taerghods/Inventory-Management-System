@@ -17,7 +17,7 @@
 4. Use Polymorphism to unify the stock update process for all types of items.
 5. Implement a logging system to track changes in stock and log relevant details of each update.
 6. Implement a PostgreSQL database with a table named inventory that includes the columns: id, name, quantity, price, type, and additional attributes specific to each item type.
-7. Write several queries to:
+7. Write several queries to :
    - q1: Insert new items into the database.
    - q2: Update the stock quantity of an item.
    - q3: Retrieve all items in the inventory.
